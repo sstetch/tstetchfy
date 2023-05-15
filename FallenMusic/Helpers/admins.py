@@ -41,7 +41,7 @@ def admin_check(func: Callable) -> Callable:
         check = await app.get_chat_member(message.chat.id, message.from_user.id)
         if check.status not in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
             return await message.reply_text(
-                "⎊ ʏᴏᴜ'ʀᴇ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʙᴀʙʏ, ᴘʟᴇᴀsᴇ sᴛᴀʏ ɪɴ ʏᴏᴜʀ ʟɪᴍɪᴛs."
+                "⎊ لك يا تظتوظ البيبي لازم تكون ادمن."
             )
 
         admin = (
@@ -51,7 +51,7 @@ def admin_check(func: Callable) -> Callable:
             return await func(_, message)
         else:
             return await message.reply_text(
-                "⎊ ليس لديك أذونات لإدارة محادثات الفيديو "
+                "⎊ لازم يا تظتوظ البيبي يكون عندك صلاحية لإدارة محادثات الفيديو "
             )
 
     return non_admin
