@@ -26,7 +26,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="• مسح •", callback_data="close")]]
+    [[InlineKeyboardButton(text="• امسح العك دا •", callback_data="close")]]
 )
 
 
@@ -52,13 +52,13 @@ pm_buttons = [
     [InlineKeyboardButton(text="• اوامࢪ التشغيل •", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="• سوࢪس ايري •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• جࢪوب ايري •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/TSHELSY_1"
+            text="• 𝙏𝙎𝙃𝙀𝙇𝙎𝙔 •", url="https://t.me/TSHELSY_1"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="• 𝙎𝙏𝙀𝙏𝘾𝙃 •", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -72,13 +72,13 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(text="• سورس ايري •", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="• جࢪوب الدعم •", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="• جࢪوب ايري •", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="• مطوࢪ السورس •", url="https://t.me/TSHELSY_1"
+            text="• 𝙏𝙎𝙃𝙀𝙇𝙎𝙔 •", url="https://t.me/TSHELSY_1"
         ),
-        InlineKeyboardButton(text="• مالك البوت •", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="• 𝙎𝙏𝙀𝙏𝘾𝙃 •", user_id=config.OWNER_ID),
     ],
 ]
 
